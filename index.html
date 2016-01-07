@@ -11,10 +11,17 @@
       }
 
       @font-face {
+        font-family: 'Perfect DOS VGA 437';
+        font-style: normal;
+        src: local('☺'), url('perfect_dos.ttf') format('truetype')
+      }
+
+      @font-face {
         font-family: 'ArcadeClassic';
         font-style: normal;
         src: local('☺'), url('arcadeclassic.ttf') format('truetype')
       }
+
 
       h1, h2, h3, h4, h5, h6, header {
         font-family: 'ArcadeClassic', sans-serif;
@@ -24,15 +31,28 @@
         text-align:center
       }
 
-      h1 { 
+      h1.classic, 
+      h1.perfect {
         opacity: .8;
         font-size:6.6em
+      }
+
+      h1.perfect {
+        font-family: 'Perfect DOS VGA 437'
+      }
+
+      body { 
+        font: 19px Georgia,serif;
+        color: #333;
+        /*-webkit-font-smoothing:antialiased*/
       }
     </style>
   <head>
   <body>
     <header>
-      <h1>n3dev</h1>
+      <h1 class="classic">n3dev</h1>
+      <h1 class="perfect">n3dev</h1>
+      <h1 class="perfect">N3DEV</h1>
     </header>
   </body>
 </html>
