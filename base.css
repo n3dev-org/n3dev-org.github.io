@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font: 19px 'PerfectDOS',Georgia,serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased
+}
+
+body > *,
+header span,
+img {
+  margin:0 auto
+}
+
+@font-face {
+  font-family: 'PerfectDOS';
+  font-style: normal;
+  src: local('☺'), url('perfect_dos.ttf') format('truetype')
+}
+
+h1, h2, h3, h4, h5, h6, header {
+  padding-top: 38px;
+  color: #0d1113;
+  line-height: 1.2em;
+  text-align:center
+}
+
+h1 {
+  opacity: 0.8;
+  font-size: 6.6em;
+  text-shadow: 0 6px 0 rgba(0,0,0,.2)
+}
+
+p {
+  padding-top: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+p, section nav {
+  line-height:1.4em
+}
+
+body > * {
+  max-width:740px;
+  box-sizing: border-box;
+  padding-left: 19px;
+  padding-right: 19px
+}
+
+article p:first-child {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding-bottom: .2em
+}
+
+header {
+  background: #BB3E3E;
+  color: #FFF;
+  padding: 1.6em .4em;
+  font-size: 2.4em;
+  line-height: 1.2em;
+  text-align: center;
+  max-width: 100%;
+  font-weight: 400
+}
+
+header small {
+  display: block;
+  font-size: .5em;
+  opacity: .6
+}
+
+body > footer {
+  background: #220B0B;
+  color: #FFF;
+  padding: 2.6em .4em;
+  line-height: 1.35em;
+  max-width: 100%;
+  font-weight: 400;
+  margin-top: 4em
+}
+
+body > footer > * {
+  max-width: 702px;
+  margin: 0 auto;
+  padding: 0
+}
+body > footer > nav {
+  padding-top: 1.7em;
+  padding-bottom: 2.7em
+}
+body > footer > nav a {
+  padding-right: 30px;
+  color: #fff
+}
+
+a {
+  color: #295DB1
+}
