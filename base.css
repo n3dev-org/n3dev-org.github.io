@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'PerfectDOS';
+  font-style: normal;
+  src: local('☺'), url('perfect_dos.ttf') format('truetype')
+}
+
 body, html {
   margin: 0;
   padding: 0
@@ -13,12 +19,6 @@ body > *,
 header span,
 img {
   margin:0 auto
-}
-
-@font-face {
-  font-family: 'PerfectDOS';
-  font-style: normal;
-  src: local('☺'), url('perfect_dos.ttf') format('truetype')
 }
 
 h1, h2, h3, h4, h5, h6, header {
